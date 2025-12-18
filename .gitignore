@@ -1,0 +1,114 @@
+# ==================== .gitignore ====================
+# Place this file in your project ROOT directory
+
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# ===== Flask =====
+instance/
+*.db
+*.sqlite
+*.sqlite3
+.webassets-cache
+
+# ===== Node/React =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===== Build outputs =====
+dist/
+build/
+*.local
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.ropeproject
+.spyderproject
+.spyproject
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.log
+
+# ===== Environment =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== Uploads =====
+uploads/
+*.pdf
+backend/uploads/
+
+# ===== Testing =====
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# ===== Misc =====
+*.bak
+*.tmp
+*.temp
+
+# ===== Static type checkers =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ===== Cython debug symbols =====
+cython_debug/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints
+
+# ===== Logs and databases =====
+*.sql
+*.sqlite
+
+# ===== Virtualenvs =====
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ===== Celery beat schedule =====
+celerybeat-schedule
+
+# ===== Python environment files =====
+profile_default/
+ipython_config.py
+
